@@ -1,0 +1,12 @@
+Steps that will be followed during the game
+-Parse website for game state
+-Prepare the state
+--Get game state data in structure
+--Determine valid moves
+--(later) Compute additional useful information
+-Compute action based on state using saved weights
+-Put action back in to the game
+
+Steps for after the game
+-Compute rewards for each step taken
+-Update weights
